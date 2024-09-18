@@ -1,3 +1,4 @@
+// Bmi calculator 
 const prompt = require('prompt-sync')();
 // the input section for weight 
 let weight=parseInt(prompt('please give me your  weight in kg  : '));
