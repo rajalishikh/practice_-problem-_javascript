@@ -1,11 +1,12 @@
-// problem 
-// 1. Declare an array
+
+
+
+// problem solving 1
+//  Declare an array
 // Declare an array with 5 elements containing fruits
 // console log the 3rd index element
 // change the value of the 2nd index element to jambura
 // console log the final array
-
-// problem solving 1
 
 let fruits=['Apple', 'Strawberry','Pineapple','Watermelon','Mango']
 fruits[2]= 'jambura'
@@ -13,3 +14,35 @@ console.log(fruits[3])
 
 console.log(fruits)
 
+
+
+// problem solving 2 
+// 2. Add or remove elements
+// Declare an array of 3 tourist destinations
+// Add a new tourist destination to your tourist array
+// Add two more to your array
+// Remove the last tourist destination you have added
+// display the final array as output
+
+
+let touristDestination=['Dhaka','CoxBajar','Sirajgonj'];
+touristDestination.push('Bandorbon')
+touristDestination.push('Rajshahi','Rupnai')
+console.log(touristDestination)
+touristDestination.pop('Rupnai')
+console.log(touristDestination)
+
+// problem solving 3 
+// Create an array of books containing different book.
+
+// Use the includes method to check if the array contains a javascript book.
+
+// Print a message to the console indicating whether the element is present in the array or not.
+let storeBooks=['python','c','c++','thakomar jhuri ','English grammar','javaScript']
+
+if(storeBooks.includes('javaScript')== true){
+    console.log('yes  javasCript here in the list ')
+
+} else{
+    console.log('No  javasCript not in the list ')
+}
