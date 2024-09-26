@@ -61,3 +61,14 @@ var arrayType3=true
 console.log(Array.isArray(arrayType))
 console.log(Array.isArray(arrayType2))
 console.log(Array.isArray(arrayType3))
+
+// problem 5 
+// Create two arrays of your choice.
+// Use the concat method to combine the two arrays into a new array.
+// Print both the original arrays and the combined array using console.log().
+
+const array1=['python','javasCript']
+const array2=['junior developer','full stack developer']
+const array3=['junior developer','full stack developer']
+const newArray= array1.concat(array2,array3)
+console.log(newArray)
