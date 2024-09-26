@@ -46,3 +46,18 @@ if(storeBooks.includes('javaScript')== true){
 } else{
     console.log('No  javasCript not in the list ')
 }
+
+// problem solving 4 
+// Create different variables, each containing either an array or a non-array value.
+
+// Now use isArray to check if each variable is an array.
+
+// Print a message to the console indicating whether each variable is an array or not.
+
+var arrayType=['raj','barat',]
+var arrayType2=[12]
+var arrayType3=true
+
+console.log(Array.isArray(arrayType))
+console.log(Array.isArray(arrayType2))
+console.log(Array.isArray(arrayType3))
